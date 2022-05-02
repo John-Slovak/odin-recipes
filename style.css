@@ -1,13 +1,27 @@
-body {
+.body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: aliceblue;
+    background-image: url(./images/bgpi.png);
+}
+
+.dog {
+    background-image: url(./images/bgho.png);
+}
+
+.ger {
+    background-image: url(./images/bgbu.png);
+}
+
+.up {
+    background-image: url(./images/bgso.png);
 }
 
 .belt {
-    width: 1000px;
+    width: 1200px;
     margin: auto;
     margin-top: 0px;
     background: rgb(36, 36, 36);
+    box-shadow: 0px 1px 10px black;
+    border-radius: 10px;
 }
 
 .top {
@@ -16,13 +30,178 @@ body {
 
 .trans {
     background-image: url(./images/proschutto.jpg);
+    background-size: cover;
     margin: auto;
     padding: 80px 50px 80px;
     width: 700px;
     text-align: center;
     font-size: 120px;
     border-radius: 50px;
-    color: aliceblue;
-    text-shadow: 0px 1px 10px black;
+    color: whitesmoke;
+    text-shadow: 0px 20px 20px black;
+    box-shadow: black 0px 1px 10px;
 
+}
+
+.hot {
+    background-image: url(./images/hot-dog.jpg);
+}
+
+.bur {
+    background-image: url(./images/hamburger.jpg);
+}
+
+.so {
+    background-image: url(./images/soup.jpg);
+}
+
+.title {
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: fit-content;
+    font-size: 80px;
+    color: rgb(231, 0, 0);
+    text-shadow: black 0px 1px 5px;
+    border-bottom: 10px dotted #5e0000;
+    border-top: 10px dotted #5e0000;
+}
+
+.title2 {
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: fit-content;
+    font-size: 80px;
+    color: rgb(231, 112, 0);
+    text-shadow: black 0px 1px 5px;
+    border-bottom: 10px dotted #5e3000;
+    border-top: 10px dotted #5e3000;
+}
+
+.title3 {
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: fit-content;
+    font-size: 80px;
+    color: rgb(231, 220, 0);
+    text-shadow: black 0px 1px 5px;
+    border-bottom: 10px dotted #5e6000;
+    border-top: 10px dotted #5e6000;
+}
+
+.title4 {
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: fit-content;
+    font-size: 80px;
+    color: rgb(130, 231, 0);
+    text-shadow: black 0px 1px 5px;
+    border-bottom: 10px dotted #5e9000;
+    border-top: 10px dotted #5e9000;
+}
+
+.table {
+    background: whitesmoke;
+    padding: 50px;
+    margin: auto;
+    color: black;
+    width: 200px;
+    border-radius: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    box-shadow: black 0px 1px 10px;
+}
+
+.description {
+    width: 900px;
+    text-align: center;
+}
+
+.ingredients {
+    width: 500px;
+}
+
+.short {
+    width: 200px;
+}
+
+.shortish {
+    width: 300px;
+}
+
+.shorter {
+    width: 400px;
+}
+
+.steps {
+    width: 700px;
+}
+
+.bottom {
+    height: 100px;
+}
+
+.titlemain {
+    text-align: center;
+    margin: auto;
+    width: 700px;
+    padding-bottom: 0px;
+    font-size: 120px;
+    color: rgb(255, 255, 255);
+    text-shadow: black 0px 1px 5px;
+}
+
+.t {
+    background: whitesmoke;
+    padding: 50px;
+    margin: auto;
+    color: black;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    box-shadow: black 0px 1px 10px;
+}
+
+body {
+    background-image: url(./images/bgd.png);
+}
+
+.belt2 {
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    margin-top: 50px;
+    background: rgb(36, 36, 36);
+    box-shadow: 0px 1px 10px black;
+    border-radius: 100px;
+}
+
+.beltmain {
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+    background: rgb(36, 36, 36);
+    box-shadow: 0px 1px 10px black;
+    border-radius: 10px; 
+}
+
+.dot {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    margin-top: 50px;
+    background: #5e0000;
+    color: #5e0000;
+    box-shadow: 0px 1px 5px black;
+    border-radius: 100px;
+    
 }
